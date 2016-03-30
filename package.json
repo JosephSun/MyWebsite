@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JosephSun/MyWebsite#readme",
   "dependencies": {
-    "eslint": "^2.5.3"
+    "eslint": "^2.5.3",
+    "eslint-plugin-react": "^4.2.3"
   }
 }
