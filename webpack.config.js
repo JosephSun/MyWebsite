@@ -1,5 +1,5 @@
-import HtlWebpackPlugin from 'html-webpack-plugin';
-const HTMLWebpackPluginConfig = new HTMLWebpackPluginConfig({
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   template: `${__dirname} /app/index.html`,
   filename: 'index.html',
   inject: 'body'
