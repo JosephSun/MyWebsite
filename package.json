@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/JosephSun/MyWebsite#readme",
   "dependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
     "eslint": "^2.5.3",
-    "eslint-plugin-react": "^4.2.3"
+    "eslint-plugin-react": "^4.2.3",
+    "webpack": "^1.12.14"
   },
   "devDependencies": {
     "html-webpack-plugin": "^2.15.0"
