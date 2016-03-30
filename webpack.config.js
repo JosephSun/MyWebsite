@@ -1,3 +1,5 @@
+import HtlWebpackPlugin from 'html-webpack-plugin';
+
 module.exports = {
   entry: [
     './app/index.js'
