@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JosephSun/MyWebsite/issues"
   },
-  "homepage": "https://github.com/JosephSun/MyWebsite#readme"
+  "homepage": "https://github.com/JosephSun/MyWebsite#readme",
+  "dependencies": {
+    "eslint": "^2.5.3"
+  }
 }
