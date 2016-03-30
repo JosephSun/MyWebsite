@@ -1,0 +1,19 @@
+{
+  "name": "my_website",
+  "version": "1.0.0",
+  "description": "My own personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephSun/MyWebsite.git"
+  },
+  "author": "Joseph Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephSun/MyWebsite/issues"
+  },
+  "homepage": "https://github.com/JosephSun/MyWebsite#readme"
+}
