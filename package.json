@@ -23,6 +23,8 @@
     "babel-preset-react": "^6.5.0",
     "eslint": "^2.5.3",
     "eslint-plugin-react": "^4.2.3",
+    "gulp": "^3.9.1",
+    "react": "^0.14.8",
     "webpack": "^1.12.14"
   },
   "devDependencies": {
