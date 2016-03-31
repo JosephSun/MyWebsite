@@ -9,9 +9,12 @@ module.exports = {
   entry: [
     './app/index.js'
   ],
+  resolve: {
+    extentions: ['', '.js', '.jsx']
+  },
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
+      {test: /\.jsx$/, exclude: /node_modules/, loader: "babel-loader"}
     ]
   },
   output: {
