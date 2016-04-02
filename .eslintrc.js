@@ -37,7 +37,7 @@ module.exports = {
         "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
         "space-infix-ops": [2, {"int32Hint": false}],
         "keyword-spacing": [2, {"before": true, "after": true, "overrides": {}}],
-        "sort-imports": [2, {
+        "sort-imports": [1, {
             "ignoreCase": false,
             "ignoreMemberSort": false,
             "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
