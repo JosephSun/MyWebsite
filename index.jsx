@@ -1,10 +1,10 @@
 import { browserHistory, IndexRoute, Route, Router} from 'react-router'
-import About from './modules/About'
-import App from './modules/App'
-import Home from './modules/Home'
+import About from './components/About'
+import App from './components/App'
+import Home from './components/Home'
 import React from 'react'
-import Repo from './modules/Repo'
-import Repos from './modules/Repos'
+import Repo from './components/Repo'
+import Repos from './components/Repos'
 import { render } from 'react-dom'
 
 render((
