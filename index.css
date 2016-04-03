@@ -1,13 +1,16 @@
 
+body {
+  background-color: #8CC739;
+}
 .nav-bar {
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
+  background-color: #31C3E7	;
   list-style-type: none;
   position: fixed;
   width:100%;
   top: 0;
   left:0;
-  margin-top: 0;
+
+  margin: 0;
   padding: 9px;
   margin-bottom: 10px;
   padding-left: 40%;
@@ -20,11 +23,6 @@
   text-align: center;
 }
 
-.nav-text {
-  color: black;
-  text-decoration: none;
-  text-transform: center;
-}
 
 .nav-text:hover {
   color: red;
@@ -34,6 +32,8 @@
   color: magenta;
 }
 
-.avoiding-navbar {
+.content {
+  color: black;
   margin-top: 50px;
+  text-decoration: none;
 }
