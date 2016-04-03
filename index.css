@@ -1,6 +1,12 @@
 
 body {
-  background-color: #8CC739;
+  background: linear-gradient(
+    to right,
+    #8CC739 0%,
+    #8CC739 50%,
+    #FFFFFF 50%,
+    #FFFFFF 100%
+    )
 }
 .nav-bar {
   background-color: #31C3E7	;
@@ -22,7 +28,6 @@ body {
   padding: 9px 16px;
   text-align: center;
 }
-
 
 .nav-text:hover {
   color: red;
