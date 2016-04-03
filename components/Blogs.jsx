@@ -4,7 +4,7 @@ export default React.createClass({
 
   render() {
     return (
-      <div>
+      <div className="blog-home">
         Blogs go here!
       </div>
     )
