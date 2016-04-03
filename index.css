@@ -1,25 +1,22 @@
 
 body {
   background: linear-gradient(
-    to right,
-    #8CC739 0%,
-    #8CC739 50%,
-    #FFFFFF 50%,
-    #FFFFFF 100%
+    to left,
+    rgb(17, 67, 87),
+    rgb(242, 148, 146)
     )
 }
 .nav-bar {
-  background-color: #31C3E7	;
+  background-color: white	;
   list-style-type: none;
   position: fixed;
+  height:30px
   width:100%;
   top: 0;
   left:0;
-
-  margin: 0;
-  padding: 9px;
   margin-bottom: 10px;
-  padding-left: 40%;
+  margin-top: 0;
+  padding: 9px 40% 9px 40%;
 }
 
 .nav-constant {
@@ -41,4 +38,5 @@ body {
   color: black;
   margin-top: 50px;
   text-decoration: none;
+  font-size:30px;
 }
