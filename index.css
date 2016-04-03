@@ -3,6 +3,9 @@
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
   list-style-type: none;
+  position: fixed;
+  width:100%;
+  top: 0;
   margin: 0;
   padding: 9px;
   margin-bottom: 10px;
@@ -15,9 +18,8 @@
   text-align: center;
 }
 
-.nav-constant:hover {
-  background-color: green;
-  color: white;
+.nav-text:hover {
+  color: red;
 }
 .nav-text {
   color: black;
