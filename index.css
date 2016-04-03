@@ -33,3 +33,7 @@
 .active {
   color: magenta;
 }
+
+.avoiding-navbar {
+  margin-top: 50px;
+}
