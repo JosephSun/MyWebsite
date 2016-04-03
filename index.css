@@ -1,10 +1,11 @@
 
 .nav-bar {
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
   list-style-type: none;
   margin: 0;
   padding: 9px;
   margin-bottom: 10px;
-  background-color: #333;
 }
 
 .nav-constant {
@@ -19,12 +20,11 @@
   color: white;
 }
 .nav-text {
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: center;
 }
 
 .active {
-  background-color: #4CAF50;
-  color: white;
+  color: magenta;
 }
