@@ -10,17 +10,17 @@
 .nav-constant {
   display: inline;
   color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 9px 16px;
   text-align: center;
 }
 
 .nav-constant:hover {
-  background-color: #555;
+  background-color: green;
   color: white;
 }
 .nav-text {
   color: white;
+  text-decoration: none;
   text-transform: center;
 }
 
