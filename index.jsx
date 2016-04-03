@@ -7,7 +7,7 @@ import Repo from './components/Repo'
 import Repos from './components/Repos'
 import { render } from 'react-dom'
 
-render((
+render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
@@ -17,4 +17,4 @@ render((
       <Route path="/about" component={About}/>
     </Route>
   </Router>
-), document.getElementById('app'))
+, document.getElementById('app'))
