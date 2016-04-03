@@ -4,7 +4,7 @@ export default React.createClass({
 
   render() {
     return (
-      <div className="avoiding-navbar">
+      <div className="content">
         Blogs go here!
       </div>
     )
