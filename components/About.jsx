@@ -6,7 +6,11 @@ export default React.createClass({
       <div className="content">
         <div className="container-about-text">
           <p>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+            So why does everyone love containers and Docker? James Bottomley, Parallels‘ CTO of server virtualization and a leading Linux kernel developer, explained to me that VM hypervisors, such as Hyper-V, KVM, and Xen, all are "based on emulating virtual hardware. That means they’re fat in terms of system requirements."
+            <br/>
+            <br/>
+
+            Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
           </p>
         </div>
 
