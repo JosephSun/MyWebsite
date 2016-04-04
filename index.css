@@ -3,7 +3,7 @@ body {
   background: linear-gradient(
     to left,
     rgb(194, 229, 156),
-    rgb(100, 179, 244))
+    rgb(100, 179, 244));
 }
 .nav-bar {
   background-color: white	;
@@ -49,6 +49,7 @@ body {
 }
 
 
-.about-text {
-  
+.container-about-text {
+  text-align: center;
+  margin:20%;
 }
