@@ -57,3 +57,11 @@ html {
   right: 10%;
   text-align: justify;
 }
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+}
