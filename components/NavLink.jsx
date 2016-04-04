@@ -3,6 +3,6 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    return <Link {...this.props} className="content" activeClassName="active"/>
+    return <Link {...this.props} activeClassName="active"/>
   }
 })
