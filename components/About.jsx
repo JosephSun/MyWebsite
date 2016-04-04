@@ -14,6 +14,7 @@ export default React.createClass({
           </p>
         </div>
 
+        <img src="../PPic.jpg" alt="Profile Picture" height="42" width="42"/>
 
 
       </div>
