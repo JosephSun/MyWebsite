@@ -54,10 +54,9 @@ html {
 
 .container-about-text {
   position: absolute;
-  left:30%;
-  right: 10%;
+  left: 20%;
+  right: 30%;
   top: 400px;
-  text-align: justify;
 }
 
 .profile-pic {
@@ -65,5 +64,9 @@ html {
   width: 300px;
   border-radius: 50%;
   position: absolute;
-  left: 40%;
+  left: 35%;
+}
+
+.testParagrahp{
+  font-family: serif;
 }

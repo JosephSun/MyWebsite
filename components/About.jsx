@@ -5,20 +5,20 @@ export default React.createClass({
     return (
       <div className="content">
         <div className="container-about-text">
-          <p>
-            So why does everyone love containers and Docker? James Bottomley, Parallels‘ CTO of server virtualization and a leading Linux kernel developer, explained to me that VM hypervisors, such as Hyper-V, KVM, and Xen, all are "based on emulating virtual hardware. That means they’re fat in terms of system requirements."
+          <p className="testParagraph">
+            Who am I: My name is bazz khurshid. I am a software engineer who focuses on web applications. My skills are Blank javascript React Mongodb.
             <br/>
             <br/>
 
-            Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
+              I recently built a world-wide pair programming web application on a team of four where I implemented real-time code collaboration with Websockets, user authentication with OAuth 2.0, persistence of data with a NoSQL database and created RESTful API endpoints to handle client HTTP requests using Node.js and Express.
             <br/>
             <br/>
 
-            Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
+              In my cover letter and resume, I have the reasons why my technical skills make me a good fit for this position. I will now use this time to discuss why I believe my personality is a great fit for the culture within the organization. In essence, I believe this because I posses the qualities that the organization has listed in the application. I will now address a few of those qualities:
             <br/>
             <br/>
 
-            Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
+              In a previous product I build, PairedUp (https://github.com/JosephSun/PairedUp), I used Node.js to build the backend.  As the product is based around real-time code collaboration, Node.js asynchronous execution model and the ease at which it makes real time easy between multi-users (the event loop taking care of the multi-users and Websockets taking care of real-time communication) were particularly decisive factors in choosing which programming language to use. Another factor was the module ecosystem that Node.js carries with it. NPM was another factor that led to the decision of choosing Node.js.
           </p>
         </div>
 
