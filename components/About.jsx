@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import NavLink from './NavLink'
 import React from 'react'
 
@@ -17,10 +18,13 @@ export default React.createClass({
           <h1>About the wierdo in the square</h1>
 
           <p>
-              His passions include building with a purpose and increasing his productivity (like I said, wierdo-I mean, look at how he refers to himself in the third person). He likes to dabble in frontend architecture from time to time but mostly just focuses on buildiing features. This is the part where I would list my good qualities (did the switch between third person to first person confuse you? It sure confused him) but I'm pretty sure you have heard it all before. So, I'll let you fill in the blank. I am _____. That is why you should _____. Hopefully you filled in both blanks with good things.
+              His passions include building with a purpose and increasing his productivity (like I said, wierdo-I mean, look at how he refers to himself in the third person). He likes to dabble in frontend architecture from time to time but mostly just focuses on buildiing features.
+              <br/>
+              <br/>
+              This is the part where I would list my good qualities (did the switch between third person to first person confuse you? It sure confused him) but I'm pretty sure you have heard it all before. So, I'll let you fill in the blank. I am _____. That is why you should _____. Hopefully you filled in both blanks with good things.
             <br/>
             <br/>
-            Feel free to contact me and/or check out my work. You can find me on Github, Twitter and LinkedIn.
+            Feel free to contact me and/or check out my work. You can find me on Github, Twitter and <Link to="https://www.linkedin.com/in/josephsun4">LinkedIn</Link>.
           </p>
         </div>
 
