@@ -11,7 +11,7 @@ import { render } from 'react-dom'
 render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
+      <IndexRoute component={About}/>
       <Route path="/repos" component={Repos}>
         <Route path="/repos/:userName/:repoName" component={Repo}/>
       </Route>
