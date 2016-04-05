@@ -19,6 +19,7 @@ html {
   margin-top: 0;
   padding: 9px 40% 9px 40%;
   text-decoration: none;
+  z-index: 1;
 }
 
 .nav-constant {
@@ -55,6 +56,7 @@ html {
   position: absolute;
   left:30%;
   right: 10%;
+  top: 400px;
   text-align: justify;
 }
 
