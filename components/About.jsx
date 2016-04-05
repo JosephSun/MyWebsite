@@ -1,4 +1,6 @@
+import NavLink from './NavLink'
 import React from 'react'
+
 
 export default React.createClass({
   render() {
@@ -7,7 +9,7 @@ export default React.createClass({
         <div className="container-about-text">
           <h1>About the guy in the circle</h1>
           <p>
-            His name is Joseph Sun and I am him or he is me. I'm never quite sure how to phrase that, Which must mean that neither does he. Huh. I am a full stack software engineer who focuses primarily on React and Node. My previous experience includes building web applications using MongoDB, Express, Node and Angular, among other technologies. You can click the word resume at the top of the website, or if your feeling lazy, you can just click here.
+            His name is Joseph Sun and I am him or he is me. I'm never quite sure how to phrase that, which must mean that neither does he. Huh. I am a full stack software engineer who focuses primarily on React and Node. My previous experience includes building web applications using Express, Node and Angular, among other technologies. You can click the word resume at the top of the website, or if your feeling lazy, you can just click <NavLink to="/repos">here</NavLink>.
 
           </p>
           <img src="../pics/FacePic.jpg" alt="Profile Picture" className="profile-pic-two" height="42" width="42"/>
@@ -15,15 +17,10 @@ export default React.createClass({
           <h1>About the wierdo in the square</h1>
 
           <p>
-              I recently built a world-wide pair programming web application on a team of four where I implemented real-time code collaboration with Websockets, user authentication with OAuth 2.0, persistence of data with a NoSQL database and created RESTful API endpoints to handle client HTTP requests using Node.js and Express.
+              His passions include building with a purpose and increasing his productivity (like I said, wierdo-I mean, look at how he refers to himself in the third person). He likes to dabble in frontend architecture from time to time but mostly just focuses on buildiing features. This is the part where I would list my good qualities (did the switch between third person to first person confuse you? It sure confused him) but I'm pretty sure you have heard it all before. So, I'll let you fill in the blank. I am _____. That is why you should _____. Hopefully you filled in both blanks with good things.
             <br/>
             <br/>
-
-              In my cover letter and resume, I have the reasons why my technical skills make me a good fit for this position. I will now use this time to discuss why I believe my personality is a great fit for the culture within the organization. In essence, I believe this because I posses the qualities that the organization has listed in the application. I will now address a few of those qualities:
-            <br/>
-            <br/>
-
-              In a previous product I build, PairedUp (https://github.com/JosephSun/PairedUp), I used Node.js to build the backend.  As the product is based around real-time code collaboration, Node.js asynchronous execution model and the ease at which it makes real time easy between multi-users (the event loop taking care of the multi-users and Websockets taking care of real-time communication) were particularly decisive factors in choosing which programming language to use. Another factor was the module ecosystem that Node.js carries with it. NPM was another factor that led to the decision of choosing Node.js.
+            Feel free to contact me and/or check out my work. You can find me on Github, Twitter and LinkedIn.
           </p>
         </div>
 
