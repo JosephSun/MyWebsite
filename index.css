@@ -71,6 +71,10 @@ html {
   left: 35%;
 }
 
-.testParagrahp{
-  font-family: serif;
+.profile-pic-two{
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  position: relative;
+  left: 28%;
 }

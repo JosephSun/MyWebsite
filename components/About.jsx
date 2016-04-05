@@ -5,12 +5,16 @@ export default React.createClass({
     return (
       <div className="content">
         <div className="container-about-text">
-          <p className="testParagraph">
-            As the text above in the ridiculous font suggests, my name is Joseph Sun. I am a full stack software engineer who works primarily in React and Node. I have built web applications using MongoDB, Express, Node and Angular, among other technologies. I am interested in frontend architecture and staying on the cutting edge of web technologies.
+          <h1>About the guy in the circle</h1>
+          <p>
+            His name is Joseph Sun and I am him or he is me. I'm never quite sure how to phrase that, Which must mean that neither does he. Huh. I am a full stack software engineer who focuses primarily on React and Node. My previous experience includes building web applications using MongoDB, Express, Node and Angular, among other technologies. You can click the word resume at the top of the website, or if your feeling lazy, you can just click here.
 
-            <br/>
-            <br/>
+          </p>
+          <img src="../pics/FacePic.jpg" alt="Profile Picture" className="profile-pic-two" height="42" width="42"/>
 
+          <h1>About the wierdo in the square</h1>
+
+          <p>
               I recently built a world-wide pair programming web application on a team of four where I implemented real-time code collaboration with Websockets, user authentication with OAuth 2.0, persistence of data with a NoSQL database and created RESTful API endpoints to handle client HTTP requests using Node.js and Express.
             <br/>
             <br/>
@@ -23,7 +27,7 @@ export default React.createClass({
           </p>
         </div>
 
-        <img src="../PPic.jpg" alt="Profile Picture" className="profile-pic" height="42" width="42"/>
+        <img src="../pics/PPic.jpg" alt="Profile Picture" className="profile-pic"/>
 
 
       </div>
