@@ -11,6 +11,14 @@ export default React.createClass({
             <br/>
 
             Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
+            <br/>
+            <br/>
+
+            Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
+            <br/>
+            <br/>
+
+            Therefore, according to Bottomley, with a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
           </p>
         </div>
 
