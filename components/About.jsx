@@ -6,7 +6,8 @@ export default React.createClass({
       <div className="content">
         <div className="container-about-text">
           <p className="testParagraph">
-            Who am I: My name is bazz khurshid. I am a software engineer who focuses on web applications. My skills are Blank javascript React Mongodb.
+            As the text above in the ridiculous font suggests, my name is Joseph Sun. I am a full stack software engineer principally interested in React and Node. I have built web applications using MongoDB, Express, Node and Angular, among other technologies. I'm interested in frontend architecture and staying on the cutting edge of web technologies.
+
             <br/>
             <br/>
 

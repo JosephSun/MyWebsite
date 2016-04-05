@@ -59,6 +59,8 @@ html {
   left: 20%;
   right: 25%;
   top: 400px;
+  font-size: 25;
+  font-family: fantasy;
 }
 
 .profile-pic {
