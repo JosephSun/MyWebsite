@@ -13,8 +13,8 @@ export default React.createClass({
         </div>
         <div>
           <h4>Projects</h4>
-            <p> <Link to="https://github.com/JosephSun/PairedUp" target="_blank">PairedUp</Link> | Fullstack Software Engineer</p>
-            <p> World-Wide Pair Programming WebApp </p>
+            <p className="project-title" > <Link to="https://github.com/JosephSun/PairedUp" target="_blank">PairedUp</Link> | Fullstack Software Engineer</p>
+            <p className="project-description"> World-Wide Pair Programming WebApp </p>
             <ul>
               <li className="work-detail" >
                 Transmitted real-time messaging and code collaboration with Websockets
@@ -46,9 +46,9 @@ export default React.createClass({
 
             </ul>
 
-            <p> <Link to="https://github.com/JosephSun/booted" target="_blank">Booted</Link> | Frontend Engineer | Scrum Master | </p>
+            <p className="project-title"> <Link to="https://github.com/JosephSun/booted" target="_blank">Booted</Link> | Frontend Engineer | Scrum Master | </p>
 
-          <p> Ranking system for Software Engineering programs </p>
+          <p className="project-description"> Ranking system for Software Engineering programs </p>
 
           <ul>
 
@@ -74,9 +74,9 @@ export default React.createClass({
 
             </ul>
 
-            <p> <Link to="https://github.com/JosephSun/Colorado-Eco-Corporation" target="_blank">Colorado Eco-Corporation</Link> | Frontend Engineer </p>
+            <p className="project-title"> <Link to="https://github.com/JosephSun/Colorado-Eco-Corporation" target="_blank">Colorado Eco-Corporation</Link> | Frontend Engineer </p>
 
-          <p>  Allows Coloradans to stay informed about their business eco-system </p>
+          <p className="project-description">  Allows Coloradans to stay informed about their business eco-system </p>
 
           <ul>
               <li className="work-detail" >
