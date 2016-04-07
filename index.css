@@ -107,3 +107,19 @@ html {
   font-size: 15px;
   margin-top: 3px;
 }
+
+.company{
+  font-size: 20px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.date{
+  font-size: 15px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.position{
+  font-size: 17px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
