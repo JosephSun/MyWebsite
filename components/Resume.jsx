@@ -97,22 +97,19 @@ export default React.createClass({
         <div>
 
           <h4>Experience</h4>
-          
-            <p> <Link to="https://github.com/JosephSun/Colorado-Eco-Corporation" target="_blank">Colorado Eco-Corporation</Link> | Frontend Engineer </p>
+                                                                                                                                                        March 2016-Present
+          <p> HealthTrio </p>
 
-            <p>  Allows Coloradans to stay informed about their business eco-system </p>
+          <p> Frontend Software Engineer </p>
+
 
             <ul>
                 <li>
-                  Constructed single-page application with Angular.js and rendered information to user through client side routing
+                  Enhanced development of UI framework that offers components for non-frontend engineers to build UIs
                 </li>
 
                 <li>
-                  Consolidated Colorado’s corporation charters through RESTfull calls
-                </li>
-
-                <li>
-                  Formulated the client side logic which parsed data received from external Government API calls using Angular.js
+                  Built UI for multiple healthcare-related web applications
                 </li>
 
               </ul>
