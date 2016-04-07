@@ -7,9 +7,9 @@ export default React.createClass({
     return (
       <div className="content">
         <div>
-          <h4>Technical Skills</h4>
-            <p> Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
-            <p> Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
+          <h4 className="project-title" >Technical Skills</h4>
+            <p className="work-detail" > Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
+            <p className="work-detail" > Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
         </div>
         <div>
           <h4>Projects</h4>
