@@ -74,7 +74,7 @@ html {
 .profile-pic-two{
   height: 300px;
   width: 300px;
-  border-radius: 10%;
+  border-radius: 15%;
   position: relative;
   left: 28%;
 }
