@@ -91,7 +91,7 @@ html {
   margin-bottom: 4px
 }
 
-.project-title{
+.project-title {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 20px;
@@ -102,3 +102,7 @@ html {
   margin-top: 0px;
   margin-bottom: 0px
 }
+
+.work-detail {
+  font-size: 15px;
+  margin-top: 3px;}
