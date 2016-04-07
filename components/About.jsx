@@ -24,7 +24,7 @@ export default React.createClass({
               This is the part where I would list my good qualities (did the switch between third person to first person confuse you? It sure confused him) but I'm pretty sure everyone says the same thing (have you ever met someone who has claimed they are not hard working?). So, I'll let you fill in the blank. I am ______. That is why you should ______. Hopefully you filled in both blanks with good things.
               <br/>
               <br/>
-              Feel free to contact me and/or check out my work. You can find me on Github, Twitter and <Link to="https://www.linkedin.com/in/josephsun4">LinkedIn</Link>.
+              Feel free to contact me and/or check out my work. You can find me on <Link to="https://www.linkedin.com/in/josephsun4">Github</Link>, Twitter and <Link to="https://www.linkedin.com/in/josephsun4">LinkedIn</Link>.
           </p>
         </div>
 
