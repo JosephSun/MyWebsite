@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router'
 
 export default React.createClass({
 
@@ -7,12 +8,12 @@ export default React.createClass({
       <div className="content">
         <div>
           <h4>Technical Skills</h4>
-            <p> Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git<p>
-            <p> Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku<p>
+            <p> Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
+            <p> Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
         </div>
         <div>
           <h4>Projects</h4>
-
+            <p> PairedUp | Fullstack Software Engineer| <
         </div>
         <div>
           <h4>Experience</h4>
