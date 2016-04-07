@@ -7,12 +7,12 @@ export default React.createClass({
     return (
       <div className="content">
         <div>
-          <h4 className="project-title" >Technical Skills</h4>
+          <h4 className="section" >Technical Skills</h4>
             <p className="work-detail" > Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
             <p className="work-detail" > Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
         </div>
         <div>
-          <h4>Projects</h4>
+          <h4 className="section" >Projects</h4>
             <p className="project-title" > <Link to="https://github.com/JosephSun/PairedUp" target="_blank">PairedUp</Link> | Fullstack Software Engineer</p>
             <p className="project-description"> World-Wide Pair Programming WebApp </p>
             <ul>
@@ -96,7 +96,7 @@ export default React.createClass({
 
         <div>
 
-          <h4>Experience</h4>
+          <h4 className="section" >Experience</h4>
                                                                                                                                                         March 2016-Present
           <p> HealthTrio </p>
 
@@ -115,11 +115,17 @@ export default React.createClass({
               </ul>
         </div>
         <div>
-          <h4>Education</h4>
+          <h4 className="section" >Education</h4>
             <p className="school-name">Telegraph Academy | 2016</p>
             <p className="school-description"> Advanced Software Engineering Immersive </p>
             <p className="school-name"> University of California Berkeley | 2015 </p>
             <p className="school-description"> BA Philosophy </p>
+        </div>
+
+        <div>
+          <h4 className="section" >Personal</h4>
+            <p className="personal">Emotional intelligence (EI) and social psychology (SP) are my two favorite topics, specifically how we can use EI to build better interpersonal relationships and how we can use SP to build healthier communities. </p>
+
         </div>
         <div>
           <h4>Personal</h4>
