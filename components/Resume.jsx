@@ -8,65 +8,65 @@ export default React.createClass({
       <div className="content">
         <div>
           <h4 className="section" >Technical Skills</h4>
-            <p className="work-detail" > Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
-            <p className="work-detail" > Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
+            <p className="skills" > Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
+            <p className="skills" > Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
         </div>
         <div>
           <h4 className="section" >Projects</h4>
           <p className="project-title" > <Link to="https://github.com/JosephSun/PairedUp" target="_blank">PairedUp</Link> | Fullstack Software Engineer</p>
           <p className="project-description"> World-Wide Pair Programming WebApp </p>
-          <ul>
-            <li className="work-detail" >
+          <ul className="work-detail" >
+            <li>
               Transmitted real-time messaging and code collaboration with Websockets
             </li>
-            <li className="work-detail" >
+            <li>
               Architected client side and server logic for storing, displaying user profiles and documents
             </li>
-            <li className="work-detail" >
+            <li>
               Created RESTful API endpoints to handle client HTTP requests using Node.js and Express
             </li>
-            <li className="work-detail" >
+            <li>
               Persisted, queried, updated and deleted information with MongoDB
             </li>
-            <li className="work-detail" >
+            <li>
               Implemented user authentication with Github OAuth2 and Passport.js
             </li>
-            <li className="work-detail" >
+            <li>
               Developed logic for uploading files using Node.js
             </li>
-            <li className="work-detail" >
+            <li>
               Modularized codebase, improving team productivity and decreasing version control conflicts
             </li>
           </ul>
           <p className="project-title"> <Link to="https://github.com/JosephSun/booted" target="_blank">Booted</Link> | Frontend Engineer | Scrum Master | </p>
           <p className="project-description"> Ranking system for Software Engineering programs </p>
-          <ul>
-            <li className="work-detail" >
+          <ul className="work-detail">
+            <li>
               Implemented voting system with Angular.js
             </li>
-            <li className="work-detail" >
+            <li>
               Coached team through product development using agile like methodology, such as rapid iteration and sprints
             </li>
-            <li className="work-detail" >
+            <li>
               Spearheaded research into various APIs, informing final product choice.
             </li>
-            <li className="work-detail" >
+            <li>
               Created a search engine using Custom Google Search API
             </li>
-            <li className="work-detail" >
+            <li>
               Managed Git repository and scrum-centered backlog for a four person team using Waffle.io
             </li>
           </ul>
           <p className="project-title"> <Link to="https://github.com/JosephSun/Colorado-Eco-Corporation" target="_blank">Colorado Eco-Corporation</Link> | Frontend Engineer </p>
           <p className="project-description">  Allows Coloradans to stay informed about their business eco-system </p>
-          <ul>
-            <li className="work-detail" >
+          <ul className="work-detail">
+            <li>
               Constructed single-page application with Angular.js and rendered information to user through client side routing
             </li>
-            <li className="work-detail" >
+            <li>
               Consolidated Colorado’s corporation charters through RESTfull calls
             </li>
-            <li className="work-detail" >
+            <li>
               Formulated the client side logic which parsed data received from external Government API calls using Angular.js
             </li>
           </ul>
@@ -76,11 +76,11 @@ export default React.createClass({
           <p> HealthTrio  March 2016-Present </p>
           <p> March 2016-Present </p>
           <p> Frontend Software Engineer </p>
-          <ul>
-            <li className="work-detail" >
+          <ul className="work-detail">
+            <li>
               Enhanced development of UI framework that offers components for non-frontend engineers to build UIs
             </li>
-            <li className="work-detail" >
+            <li>
               Built UI for multiple healthcare-related web applications
             </li>
           </ul>
