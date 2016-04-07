@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router'
+import React from 'react';
 
 export default React.createClass({
 
@@ -13,7 +13,38 @@ export default React.createClass({
         </div>
         <div>
           <h4>Projects</h4>
-            <p> PairedUp | Fullstack Software Engineer| <
+            <p> <Link to="https://paired-up.herokuapp.com/" target="_blank">PairedUp</Link> | Fullstack Software Engineer</p>
+            <p> World-Wide Pair Programming WebApp </p>
+            <ul>
+              <li>
+                Transmitted real-time messaging and code collaboration with Websockets
+              </li>
+
+              <li>
+                Architected client side and server logic for storing, displaying user profiles and documents
+              </li>
+
+              <li>
+                Created RESTful API endpoints to handle client HTTP requests using Node.js and Express
+              </li>
+
+              <li>
+                Persisted, queried, updated and deleted information with MongoDB
+              </li>
+
+              <li>
+                Implemented user authentication with Github OAuth2 and Passport.js
+              </li>
+              <li>
+
+                Developed logic for uploading files using Node.js
+              </li>
+
+              <li>
+                Modularized codebase, improving team productivity and decreasing version control conflicts
+              </li>
+              
+            </ul>
         </div>
         <div>
           <h4>Experience</h4>
