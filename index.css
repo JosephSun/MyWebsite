@@ -83,9 +83,22 @@ html {
 
 .section {
   margin-bottom: 0;
+  margin-top: 20px;
 }
 .skills {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 4px
+}
+
+.project-title{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.project-description{
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px
 }
