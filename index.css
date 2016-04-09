@@ -121,7 +121,9 @@ html {
 }
 
 .school-name {
-
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .school-description {
   margin-top: 0px;
