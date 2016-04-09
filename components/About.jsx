@@ -15,10 +15,10 @@ export default React.createClass({
           </p>
           <img src="../pics/FacePic.jpg" alt="Profile Picture" className="profile-pic-two" height="42" width="42"/>
 
-          <h1>About the wierdo in the square</h1>
+          <h1>About the weirdo in the square</h1>
 
           <p>
-              His passions include building with a purpose and increasing his productivity (like I said, wierdo-I mean, look at how he refers to himself in third person). He likes to dabble in frontend architecture from time to time but mostly just focuses on buildiing features.
+              His passions include building with a purpose and increasing his productivity (like I said, weirdo-I mean, look at how he refers to himself in third person). He likes to dabble in frontend architecture from time to time but mostly just focuses on buildiing features.
               <br/>
               <br/>
               This is the part where I would list my good qualities (did the switch between third person to first person confuse you? It sure confused him) but I'm pretty sure everyone says the same thing (have you ever met someone who has claimed they are not hard working?). So, I'll let you fill in the blank. I am ______. That is why you should ______. Hopefully you filled in both blanks with good things.
