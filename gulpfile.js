@@ -9,8 +9,9 @@ gulp.task('test', () => {
 
 gulp.task('concatScripts', () => {
   gulp.src([
-    'app/*.js'
+    'components/*.jsx',
+    './index.jsx'
   ])
-  .pipe(concat("app.js"))
-  .pipe(gulp.dest('js'))
+  .pipe(concat("app.jsx"))
+  .pipe(gulp.dest('production'))
 })
