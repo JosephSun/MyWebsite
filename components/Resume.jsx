@@ -73,8 +73,7 @@ export default React.createClass({
         </div>
         <div>
           <h4 className="section" >Experience</h4>
-          <p className="company"> HealthTrio  </p>
-          <p className="date"> March 2016-Present </p>
+          <p className="company"> HealthTrio | March 2016-Present  </p>
           <p className="position"> Frontend Software Engineer </p>
           <ul className="work-detail">
             <li>
