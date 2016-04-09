@@ -10,7 +10,7 @@ export default React.createClass({
           <div>
             <h4 className="section" >Technical Skills</h4>
             <p className="skills" > Strong: Javascript, Node.js, Express, Angular.js, Socket.io, Git</p>
-            <p className="skills" > Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Passport.js, Heroku</p>
+            <p className="skills" > Experienced: React, Webpack, Babel, ES6, Backbone.js, D3, jQuery, Heroku</p>
           </div>
           <div>
             <h4 className="section" >Projects</h4>
