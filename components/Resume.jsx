@@ -38,7 +38,7 @@ export default React.createClass({
               Modularized codebase, improving team productivity and decreasing version control conflicts
             </li>
           </ul>
-          <p className="project-title"> <Link to="https://github.com/JosephSun/booted" target="_blank">Booted</Link> | Frontend Engineer | Scrum Master | </p>
+          <p className="project-title"> <Link to="https://github.com/JosephSun/booted" target="_blank">Booted</Link> | Frontend Engineer | Scrum Master  </p>
           <p className="project-description"> Ranking system for Software Engineering programs </p>
           <ul className="work-detail">
             <li>
@@ -73,9 +73,9 @@ export default React.createClass({
         </div>
         <div>
           <h4 className="section" >Experience</h4>
-          <p> HealthTrio  March 2016-Present </p>
-          <p> March 2016-Present </p>
-          <p> Frontend Software Engineer </p>
+          <p className="company"> HealthTrio  </p>
+          <p className="date"> March 2016-Present </p>
+          <p className="position"> Frontend Software Engineer </p>
           <ul className="work-detail">
             <li>
               Enhanced development of UI framework that offers components for non-frontend engineers to build UIs
