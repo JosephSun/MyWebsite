@@ -73,8 +73,8 @@ export default React.createClass({
         </div>
         <div>
           <h4 className="section" >Experience</h4>
-          <p className="company"> HealthTrio | March 2016-Present  </p>
-          <p className="position"> Frontend Software Engineer </p>
+          <p className="company"> HealthTrio </p>
+          <p className="position"> Frontend Software Engineer | March 2016-Present  </p>
           <ul className="work-detail">
             <li>
               Enhanced development of UI framework that offers components for non-frontend engineers to build UIs
