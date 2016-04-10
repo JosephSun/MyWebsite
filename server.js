@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
+app.use(compression())
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('*',  (req, res) => {
