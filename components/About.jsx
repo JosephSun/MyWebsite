@@ -13,7 +13,7 @@ export default React.createClass({
             His name is Joseph Sun and I am him or he is me. I'm never quite sure how to phrase that, which must mean that neither does he. Huh. I am a full stack software engineer who focuses primarily on React and Node. My previous experience includes building web applications using Express, Node and Angular, among other technologies. If you want a more detailed version of my experience, you can click the word resume at the top of the website or, if your feeling lazy, you can just click <NavLink to="/repos">here</NavLink>.
 
           </p>
-          <img src="../pics/FacePic.jpg" alt="Profile Picture" className="profile-pic-two" height="42" width="42"/>
+          <img src="./pics/FacePic.jpg" alt="Profile Picture" className="profile-pic-two" height="42" width="42"/>
 
           <h1>About the weirdo in the square</h1>
 
@@ -28,7 +28,7 @@ export default React.createClass({
           </p>
         </div>
 
-        <img src="../pics/PPic.jpg" alt="Profile Picture" className="profile-pic"/>
+        <img src="./pics/PPic.jpg" alt="Profile Picture" className="profile-pic"/>
 
 
       </div>
