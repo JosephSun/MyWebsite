@@ -7,7 +7,6 @@ import Repo from './components/Repo'
 import Repos from './components/Repos'
 import Resume from './components/Resume'
 import { render } from 'react-dom'
-
 render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
