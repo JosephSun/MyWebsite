@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: './index.jsx',
 
@@ -10,6 +12,12 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
+
+  plugins: process.env.NODE_ENV === 'production' ? [
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.optimize.UglifyJsPlugin()
+  ] : [],
 
   module: {
     loaders: [
