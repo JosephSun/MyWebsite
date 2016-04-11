@@ -80,9 +80,7 @@ export default React.createClass({
               <li>
                 Enhanced development of UI framework that offers components for non-frontend engineers to build UIs
               </li>
-              <li>
-                Built UI for multiple healthcare-related web applications
-              </li>
+      
             </ul>
           </div>
           <div>
