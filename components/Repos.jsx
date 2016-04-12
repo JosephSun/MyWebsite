@@ -6,10 +6,11 @@ export default React.createClass({
   // <li><NavLink to="/repos/facebook/react">React</NavLink></li>
 
   // {this.props.children}
+  // ?        <h2 className="content">Repos</h2>
+
   render() {
     return (
       <div>
-        <h2 className="content">Repos</h2>
         <ul className="content">
         </ul>
       </div>
