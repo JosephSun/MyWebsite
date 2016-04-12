@@ -93,7 +93,7 @@
 	      _react2.default.createElement(_reactRouter.Route, { path: '/repos/:userName/:repoName', component: _Repo2.default })
 	    ),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _About2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/resume/', component: _Resume2.default })
+	    _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _Resume2.default })
 	  )
 	), document.getElementById('app'));
 
