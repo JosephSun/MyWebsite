@@ -15,7 +15,7 @@ render(
         <Route path="/repos/:userName/:repoName" component={Repo}/>
       </Route>
       <Route path="/about" component={About}/>
-      <Route path="/resume" component={Resume}/>
+      <Route path="/resume/" component={Resume}/>
     </Route>
   </Router>
 , document.getElementById('app'))
