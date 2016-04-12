@@ -25011,15 +25011,12 @@
 	  // <li><NavLink to="/repos/facebook/react">React</NavLink></li>
 
 	  // {this.props.children}
+	  // ?        <h2 className="content">Repos</h2>
+
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
 	      null,
-	      _react2.default.createElement(
-	        'h2',
-	        { className: 'content' },
-	        'Repos'
-	      ),
 	      _react2.default.createElement('ul', { className: 'content' })
 	    );
 	  }
